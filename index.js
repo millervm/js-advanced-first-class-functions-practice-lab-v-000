@@ -30,7 +30,7 @@ function driversByName(drivers) {
 };
 
 function addDriverRevenues(total, driver, i, array) {
-  return total + el.revenue;
+  return total + driver.revenue;
 };
 
 function totalRevenue(drivers) {
