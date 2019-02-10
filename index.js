@@ -36,3 +36,7 @@ function addDriverRevenues(total, driver, i, array) {
 function totalRevenue(drivers) {
   return drivers.reduce(addDriverRevenues, 0);
 };
+
+function averageRevenue(drivers) {
+  return totalRevenue(drivers)/drivers.length;
+};
