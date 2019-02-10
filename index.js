@@ -28,3 +28,11 @@ function driversByName(drivers) {
   });
   return newDrivers;
 };
+
+function addDriverRevenues(total, driver, i, array) {
+  return total + el.revenue;
+};
+
+function totalRevenue(drivers) {
+  drivers.reduce(addDriverRevenues, 0);
+};
