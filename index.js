@@ -11,3 +11,9 @@ function logDriversByHometown(drivers, hometown) {
       console.log(`${driver.name}`);
   }});
 };
+
+function driversByRevenue(drivers) {
+  drivers.sort(function(driverA, driverB) {
+    return driverA.revenue - driverB.revenue;
+  });
+};
