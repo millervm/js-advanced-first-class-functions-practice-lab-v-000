@@ -13,7 +13,8 @@ function logDriversByHometown(drivers, hometown) {
 };
 
 function driversByRevenue(drivers) {
-  drivers.sort(function(driverA, driverB) {
+  const newDrivers = drivers;
+  newDrivers.sort(function(driverA, driverB) {
     return driverA.revenue - driverB.revenue;
   });
 };
