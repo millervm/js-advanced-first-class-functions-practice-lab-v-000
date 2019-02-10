@@ -34,5 +34,5 @@ function addDriverRevenues(total, driver, i, array) {
 };
 
 function totalRevenue(drivers) {
-  drivers.reduce(addDriverRevenues, 0);
+  return drivers.reduce(addDriverRevenues, 0);
 };
